@@ -166,6 +166,21 @@ Unfortunately not; since this is free software, there’s no warranty and no gua
 
 = 1.22.22 - 16/Sep/2022 =
 
+<<<<<<< Updated upstream
+=======
+* TWEAK: Do not write `SET @@GLOBAL.GTID_PURGED` statements
+* TWEAK: Improve the Handlebars template of the Rackspace Cloud Files remote storage by taking PHP code out of it
+* TWEAK: Improve the Handlebars template of the OpenStack (Swift) remote storage by taking PHP code out of it
+* TWEAK: Do not run out-of-place "SET @@GLOBAL.GTID_PURGED" statements upon restore
+* TWEAK: WP Rocket - disable CDN upon migration completion since key will be invalid.
+* TWEAK: Improve the UpdraftClone user-visible feedback and logging on delay or failure conditions
+* FIX: Restrict the CSS scope for our jQuery to prevent conflicts
+* FIX: UI bug when unable to download a database for restoration and then retrying before refreshing the page
+* TWEAK: WebDAV refactor part 2: Eliminate the stream-wrapper layer
+
+= 1.22.22 - 16/Sep/2022 =
+
+>>>>>>> Stashed changes
 * FIX: Restrict the CSS scope for our jQuery to prevent conflicts
 * FIX: UI bug when unable to download a database for restoration and then retrying before refreshing the page
 * TWEAK: Add basic design to confirmation window when adding a site to UpdraftCentral
@@ -174,6 +189,10 @@ Unfortunately not; since this is free software, there’s no warranty and no gua
 * TWEAK: Improve the Handlebars template of the Rackspace Cloud Files remote storage by taking PHP code out of it
 * TWEAK: WP Rocket - disable CDN upon migration completion since key will be invalid.
 * TWEAK: Improve the UpdraftClone user-visible feedback and logging on delay or failure conditions
+<<<<<<< Updated upstream
+=======
+* TWEAK: Improve the Handlebars template of the Rackspace Cloud Files remote storage by taking PHP code out of it   
+>>>>>>> Stashed changes
 * TWEAK: WebDAV refactor part 2: Eliminate the stream-wrapper layer
 
 = 1.22.21 - 09/Sep/2022 =
